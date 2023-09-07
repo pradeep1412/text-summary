@@ -1,5 +1,5 @@
 streamlit
 spacy
 textstat 
---extra-index-url https://pypi.org/simple/
-&& python -m spacy download en_core_web_lg
+spacy_syllables
+en_core_web_lg --no-index --find-links=file:///kaggle/input/spacy-libs/spacy_libs/ 
