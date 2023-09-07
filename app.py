@@ -3,7 +3,7 @@ import spacy
 import textstat
 
 # Load English language model for spaCy
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_lg")
 
 # Streamlit app title
 st.title("Article Analysis App")
